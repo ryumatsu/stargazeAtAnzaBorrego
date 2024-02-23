@@ -1,0 +1,19 @@
+.nav-container .nav {
+   background-color: aqua;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+}
+.nav-list ul {
+   background-color: firebrick;
+   display: flex;
+}
+.nav-list ul li {
+   background-color: blue;
+   display: flex;
+}
+.nav-list li {
+   background-color: azure;
+   margin: 20px;
+   color: white;
+}
