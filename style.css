@@ -284,3 +284,16 @@ header {
 #testimonials .s1 {
    border-bottom: 1rem solid black;
 }
+
+/* GALLERY SECTION */
+#gallery {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr); /* Creates four columns */
+   gap: 10px; /* Space between images */
+}
+
+#gallery img {
+   width: 100%; /* Makes images fill their container */
+   height: auto; /* Maintains aspect ratio */
+   object-fit: cover; /* Ensures images cover the grid area without distortion */
+}

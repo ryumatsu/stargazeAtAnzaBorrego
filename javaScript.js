@@ -47,3 +47,19 @@ gsap.fromTo(
    },
    0
 );
+
+// GALLERY SECTION
+document.addEventListener("DOMContentLoaded", function () {
+   fetch("section4Images.json") // Make sure the path matches where you've saved your JSON file
+      .then((response) => response.json())
+      .then((images) => {
+         const gallery = document.getElementById("gallery");
+         images.forEach((image) => {
+            const img = document.createElement("img");
+            img.src = image.path;
+            img.alt = image.description || "Gallery Image"; // Provides alternative text for accessibility
+            gallery.appendChild(img);
+         });
+      })
+      .catch((error) => console.error("Error loading the images:", error));
+});

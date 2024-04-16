@@ -1,0 +1,42 @@
+[
+   {
+      "title": "image 1",
+      "description": "Mountain in the middle with milkyway",
+      "path": "images/image1.webp"
+   },
+   {
+      "title": "image 2",
+      "description": "Milky Way and mountain anchor",
+      "path": "images/image2.jpg"
+   },
+   {
+      "title": "image 3",
+      "description": "Blue night sky",
+      "path": "images/image3.jpg"
+   },
+   {
+      "title": "image 4",
+      "description": "Blue night sky",
+      "path": "images/image4.webp"
+   },
+   {
+      "title": "image 5",
+      "description": "Blue night sky milky way and mountain",
+      "path": "images/image5.jpg"
+   },
+   {
+      "title": "image 6",
+      "description": "Dark sky and 2 mountains",
+      "path": "images/image6.jpg"
+   },
+   {
+      "title": "image 7",
+      "description": "Mountain and trees with milky way and blue stars",
+      "path": "images/image7.jpg"
+   },
+   {
+      "title": "image 8",
+      "description": "Blue night sky and flat mountain",
+      "path": "images/image8.jpg"
+   }
+]
