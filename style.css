@@ -287,21 +287,21 @@ header {
 
 /* GALLERY SECTION */
 #gallery h2 {
-   display: flex;
-   justify-content: center;
-   color: black;
-   align-self: center;
-   margin-top: 20px;
+   text-align: center; /* Centers the text */
+   margin-top: 20px; /* Adds space above the header */
+   margin-bottom: 20px; /* Adds space below the header, separating it from the images */
+   color: black; /* Sets the text color */
 }
 
 #gallery {
    display: grid;
    grid-template-columns: repeat(4, 1fr); /* Creates four columns */
    gap: 10px; /* Space between images */
+   align-items: stretch; /* Ensures that all items are the same height */
 }
 
 #gallery img {
    width: 100%; /* Makes images fill their container */
-   height: auto; /* Maintains aspect ratio */
+   height: 200px; /* Set a fixed height for all images */
    object-fit: cover; /* Ensures images cover the grid area without distortion */
 }
