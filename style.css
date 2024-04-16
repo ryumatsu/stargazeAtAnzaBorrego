@@ -286,6 +286,14 @@ header {
 }
 
 /* GALLERY SECTION */
+#gallery h2 {
+   display: flex;
+   justify-content: center;
+   color: black;
+   align-self: center;
+   margin-top: 20px;
+}
+
 #gallery {
    display: grid;
    grid-template-columns: repeat(4, 1fr); /* Creates four columns */
