@@ -2,142 +2,261 @@
 <html lang="en">
    <head>
       <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Stargaze at Anza Borrego</title>
+      <meta
+         name="description"
+         content="Discover information and resources for Anza Borrego stargazing and astrophotography. 
+         Experience breathtaking views of stars, planets, and galaxies in one of the darkest spots in 
+         Southern California. Perfect for astronomy enthusiasts and photographers alike."
+      />
+      <title>
+         Explore the Night Sky: Stargazing & Astrophotography in Anza Borrego
+      </title>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+         integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+         rel="stylesheet"
+      />
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
-      <div class="nav-container">
-         <nav class="nav">
-            <div class="nav-logo">
-               <img src="images\logoIcon_150x150.png" alt="Logo" />
-            </div>
-            <div class="nav-list">
-               <ul>
-                  <li><a href="#experience">Experience</a></li>
-                  <li><a href="#testimonials">Testimonials</a></li>
-                  <li><a href="#gallery">Gallery</a></li>
-                  <li><a href="#call-to-action">Visit</a></li>
-               </ul>
-            </div>
-         </nav>
-      </div>
-
-      <section id="hero" style="background-image: url('images/heroBackground.png')">
-         <div class="hero-content">
-            <h1>
-               Stargaze at <br />
-               <strong>Anza Borrego</strong>
-            </h1>
-            <p>Experience the night, where stars tell their stories.</p>
-         </div>
-      </section>
-
-      <section id="experience">
-         <!-- I can map this section as well and create cards -->
-         <h2>Why come to Anza Borrego?</h2>
-         <div class="cards">
-            <div class="card">
-               <img src="images\experience2.webp" alt="Pristine Night Skies" />
-               <h3>Pristine night skies</h3>
-               <p>
-                  Anza-Borrego’s status as an International Dark Sky Park signifies its
-                  exceptional night sky quality, providing a pristine canvas for
-                  observing the cosmos.
-               </p>
-            </div>
-            <div class="card">
+      <header>
+         <div class="navbar">
+            <div class="logo-image">
                <img
-                  src="images\experience3.webp"
-                  alt="Ideal Conditions for Astrophotography"
+                  src="images\logoIcon_150x150.png"
+                  alt="Website log Stargaze at Anza Borrego"
                />
-               <h3>Ideal conditions for astrophotography</h3>
-               <p>
-                  The dry desert air and stable atmospheric conditions enhance
-                  visibility and are perfect for capturing sharp, clear
-                  astrophotographs.
-               </p>
             </div>
-            <div class="card">
-               <img src="images\experience1.webp" alt="Unique Experiences" />
-               <h3>Unique experiences</h3>
-               <p>
-                  Its open skies offer a front-row seat to spectacular celestial
-                  events, including meteor showers, planetary alignments, and eclipses.
-               </p>
+            <ul class="links">
+               <li><a href="#experience">Experience</a></li>
+               <li><a href="#testimonials">Testimonials</a></li>
+               <li><a href="#gallery">Gallery</a></li>
+               <li><a href="#call-to-action">Visit</a></li>
+            </ul>
+            <div class="toggle_btn">
+               <i class="fa-solid fa-bars"></i>
             </div>
          </div>
-      </section>
 
-      <section id="testimonials" style="background-image: url('testimonials-bg.jpg')">
-         <!-- need to create the background image that says 'Amazing testimonials!' -->
-         <h2>Amazing Testimonials</h2>
-         <div class="testimonial-cards">
-            <!-- Testimonial Card 1 -->
-            <div class="testimonial-card">
-               <h3>Teaandcakeforthesoul</h3>
-               <p>★★★★★</p>
-               <!-- we will use icons for the stars -->
-               <p>
-                  Unique and free! This is an absolute must-see if you are road
-                  tripping between San Diego and Palm Springs, or even if you are
-                  making a special journey to view them. I can't recommend it enough.
-               </p>
-            </div>
-            <!-- Testimonial Card 2 -->
-            <div class="testimonial-card">
-               <h3>Emma E.</h3>
-               <p>★★★★★</p>
-               <p>
-                  Anza Borrego is incredible! The sky is so dark at night, and you can
-                  see the Milky Way at certain times of the year! The views of the
-                  stars, metal sculptures, palm oasis, and the landscape itself make
-                  Anza...
-               </p>
-            </div>
-            <!-- Testimonial Card 3 -->
-            <div class="testimonial-card">
-               <h3>Marjay</h3>
-               <p>★★★★★</p>
-               <p>
-                  In a galaxy far, far away... My husband and I saw a half dozen
-                  shooting stars, Venus, two different galaxies, a globular cluster,
-                  and a nebula tonight.
-               </p>
-            </div>
+         <div class="dropdown_menu">
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#call-to-action">Visit</a></li>
          </div>
-      </section>
+      </header>
 
-      <section id="gallery">
-         <!-- Gallery Images -->
-         <!-- better to use javascript and create an array of the images and map them -->
-      </section>
+      <main>
+         <section id="hero">
+            <div class="hero-content">
+               <h1>
+                  <span class="stargaze-font"
+                     >Stargaze at <br /><strong>Anza Borrego</strong></span
+                  >
+               </h1>
+               <p>Experience the night, where stars tell their stories.</p>
+               <em
+                  >Discover information and resources for Anza Borrego stargazing and
+                  astrophotography</em
+               >
+            </div>
+         </section>
 
-      <section id="call-to-action">
-         <div class="cta-image-container">
-            <img
-               src="images\image4.webp"
-               alt="Call to Action Image of the night sky"
-            />
-         </div>
+         <section id="experience">
+            <h2>Why come to Anza Borrego?</h2>
+            <div class="card-container">
+               <div class="card-group">
+                  <figure class="card 1">
+                     <img src="images\experience2.webp" alt="Pristine Night Skies" />
+                     <div class="layer"></div>
+                     <div class="info">
+                        <h3>Pristine night skies</h3>
+                        <figcaption>
+                           Anza-Borrego’s status as an International Dark Sky Park
+                           signifies its exceptional night sky quality, providing a
+                           pristine canvas for observing the cosmos.
+                        </figcaption>
+                     </div>
+                  </figure>
 
-         <div class="cta-content">
-            <h2>What are you waiting for?</h2>
-            <p>
-               Anza Borrego offers a variety of experiences including guided tours,
-               overnight stays, and much much more. Plan your trip today and experience
-               the night, where stars tell their story.
-            </p>
-            <p>Join our email list to learn more</p>
-            <form>
-               <input type="email" placeholder="Your Email" />
-               <button type="submit">Join</button>
-            </form>
-         </div>
-      </section>
+                  <figure class="card 2">
+                     <img
+                        src="images\experience3.webp"
+                        alt="Ideal Conditions for Astrophotography"
+                     />
+                     <div class="layer"></div>
+                     <div class="info">
+                        <h3>Ideal conditions for astrophotography</h3>
+                        <figcaption>
+                           The dry desert air and stable atmospheric conditions enhance
+                           visibility and are perfect for capturing sharp, clear
+                           astrophotographs.
+                        </figcaption>
+                     </div>
+                  </figure>
 
+                  <figure class="card 3">
+                     <img src="images\experience1.webp" alt="Unique Experiences" />
+                     <div class="layer"></div>
+                     <div class="info">
+                        <h3>Unique experiences</h3>
+                        <figcaption>
+                           Its open skies offer a front-row seat to spectacular
+                           celestial events, including meteor showers, planetary
+                           alignments, and eclipses.
+                        </figcaption>
+                     </div>
+                  </figure>
+               </div>
+            </div>
+         </section>
+
+         <section id="testimonials">
+            <section class="s1"><p>AMAZING</p></section>
+
+            <section class="reviews">
+               <p class="rtitle">TESTIMONIALS</p>
+               <div class="review-wrp">
+                  <div class="review rl">
+                     <div class="rhead">
+                        <div class="title">Teaandcake</div>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                     <div class="content">
+                        "Unique and free! This is an absolute must-see if you are road
+                        tripping between San Diego and Palm Springs, or even if you are
+                        making a special journey to view them. I can't recommend it
+                        enough."
+                     </div>
+                  </div>
+
+                  <div class="review rr">
+                     <div class="rhead">
+                        <div class="title">Emma E.</div>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                     <div class="content">
+                        "Anza Borrego is incredible! The sky is so dark at night, and
+                        you can see the Milky Way at certain times of the year! The
+                        views of the stars, metal sculptures, palm oasis, and the
+                        landscape itself make Anza..."
+                     </div>
+                  </div>
+
+                  <div class="review rl">
+                     <div class="rhead">
+                        <div class="title">Maryjay</div>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                     <div class="content">
+                        "In a galaxy far, far away... My husband and I saw a half dozen
+                        shooting stars, Venus, two different galaxies, a globular
+                        cluster, and a nebula tonight."
+                     </div>
+                  </div>
+
+                  <div class="review rr">
+                     <div class="rhead">
+                        <div class="title">Maryjay</div>
+                        <div class="rating">
+                           <i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i
+                           ><i class="fa-solid fa-star"></i>
+                        </div>
+                     </div>
+                     <div class="content">
+                        "In a galaxy far, far away... My husband and I saw a half dozen
+                        shooting stars, Venus, two different galaxies, a globular
+                        cluster, and a nebula tonight."
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="s2">
+               <p>AMAZING</p>
+            </section>
+         </section>
+
+         <section id="gallery">
+            <!-- Gallery Images -->
+            <!-- better to use javascript and create an array of the images and map them -->
+         </section>
+
+         <section id="call-to-action">
+            <div class="cta-image-container">
+               <img
+                  src="images\image4.webp"
+                  alt="Call to Action Image of the night sky"
+               />
+            </div>
+
+            <div class="cta-content">
+               <h2>What are you waiting for?</h2>
+               <p>
+                  Anza Borrego offers a variety of experiences including guided tours,
+                  overnight stays, and much much more. Plan your trip today and
+                  experience the night, where stars tell their story.
+               </p>
+               <p>Join our email list to learn more</p>
+               <form>
+                  <input type="email" placeholder="Your Email" />
+                  <button type="submit">Join</button>
+               </form>
+            </div>
+         </section>
+      </main>
       <footer>
-         <!-- Footer content -->
+         Visit Anza Borrego
+         <p>Visit the night, where stars tell their stories</p>
+         <div class="footer-social-icons">
+            <ul>
+               <li><i class="fa-brands fa-facebook"></i></li>
+               <li><i class="fa-brands fa-twitter"></i></li>
+               <li><i class="fa-brands fa-google-plus-g"></i></li>
+            </ul>
+         </div>
+         <div class="footer-copyright">
+            <p>
+               Copyright ©2024 Visit Anza-Borrego. Designed by <a href="">RyuMatsu</a>
+            </p>
+         </div>
       </footer>
+      <script src="javaScript.js"></script>
    </body>
 </html>
