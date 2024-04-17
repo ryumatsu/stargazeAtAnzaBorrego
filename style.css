@@ -286,14 +286,15 @@ header {
 }
 
 /* GALLERY SECTION */
+/* GALLERY SECTION */
 #gallery h2 {
-   text-align: center;
+   text-align: center; /* Centers text horizontally */
    margin-top: 20px;
    margin-bottom: 20px;
    color: black;
 }
 
-#gallery {
+#galleryImages {
    display: grid;
    grid-template-columns: repeat(4, 1fr); /* Creates four columns */
    gap: 10px; /* Space between images */
