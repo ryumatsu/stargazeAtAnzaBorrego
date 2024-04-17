@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function () {
    fetch("section4Images.json") // Make sure the path matches where you've saved your JSON file
       .then((response) => response.json())
       .then((images) => {
-         const gallery = document.getElementById("gallery");
+         const gallery = document.getElementById("galleryImages");
          images.forEach((image) => {
             const img = document.createElement("img");
             img.src = image.path;
